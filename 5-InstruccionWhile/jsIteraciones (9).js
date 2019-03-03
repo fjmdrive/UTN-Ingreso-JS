@@ -10,7 +10,7 @@ function mostrar(){
 			num= parseFloat(prompt("Error, vuelva a ingresar el número:"));
 		}
 
-		//Revisar
+		//Revisar algoritmo
 		if(num>mayor || primerNumero){
 			mayor= num;
 		}
