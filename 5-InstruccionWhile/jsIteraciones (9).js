@@ -10,17 +10,14 @@ function mostrar(){
 			num= parseFloat(prompt("Error, vuelva a ingresar el número:"));
 		}
 
-		if(primerNumero){
+		if(num>mayor || primerNumero){
 			mayor= num;
-			menor= num;
-			primerNumero= false;
-		}else{
-			if(num>mayor){
-				mayor= num;
-			}else if (num<menor){
-				menor= num;
-			}
 		}
+		if(num<menor || primerNumero){
+			menor= num
+			primerNumero= false;
+		}
+
 		var continuar= prompt("Desea ingresar otro número?(s/n)").toLowerCase();
 	}while(continuar=='s');
 	
