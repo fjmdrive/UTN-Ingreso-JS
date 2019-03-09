@@ -10,6 +10,8 @@ function mostrar(){
         case 11:
             alert("Es de mañana");
             break;
+        default:
+            alert("Ingresó una hora que no esta en el rango de 7 a 11.");
     }
 
 }

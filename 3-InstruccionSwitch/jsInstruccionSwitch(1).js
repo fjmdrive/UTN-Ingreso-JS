@@ -16,7 +16,8 @@ function mostrar() {
         case "Diciembre":
             alert("Felices fiestas!!!");
             break;
+        default:
+            alert("Seleccionó un mes no contemplado en el ejercicio.");
     }
-
 
 }
