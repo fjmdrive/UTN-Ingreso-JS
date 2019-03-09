@@ -42,6 +42,7 @@ function mostrar(){
 
 	var diferencia= cantPos - cantNeg;
 
+	//Comparar con el ejercicio 8 del parcial.
 	document.write("Suma de positivos: "+ sumaPos +
 					"<br>Suma de negativos: "+ sumaNeg +
 					"<br>Cantidad de positivos: "+ cantPos +
