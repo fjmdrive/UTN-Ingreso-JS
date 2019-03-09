@@ -7,7 +7,12 @@ function mostrar(){
 		numero= parseInt(prompt("Número incorrecto, vuelva a ingresarlo:"));
 	}
 
+	//Otra forma válida:
+	/*
+		while (!(numero >= 0 && numero <=10)){
+			numero= parseInt(prompt("Número incorrecto, vuelva a ingresarlo:"));
+		}
+	*/
+
 	alert("El número está dentro del rango esperado.");
-
-
 }

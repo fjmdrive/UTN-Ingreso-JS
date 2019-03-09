@@ -2,7 +2,9 @@ function mostrar(){
 
     //Averiguar que quiere decir con: "Si la hora es menor a 24"
     
+    //Los ingresos por id en este curso de ingreso no los validamos:
     var hora= parseInt(document.getElementById("laHora"));
+
     var cadena;
 
     switch (hora){
@@ -40,7 +42,6 @@ function mostrar(){
             break;
         default:
             cadena= "La hora no es válida.";
-            break;
     }
 
     alert(cadena);

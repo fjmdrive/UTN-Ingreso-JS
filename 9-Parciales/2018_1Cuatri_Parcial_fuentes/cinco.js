@@ -20,7 +20,6 @@ function mostrar(){
             break;
         default:
             alert("Planeta inválido.");
-            break;
     }
 
 }
